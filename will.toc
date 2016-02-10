@@ -1,0 +1,7 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Do you really have a choice?}{3}{section.1}
+\contentsline {section}{\numberline {2}Can the universe be deterministic?}{6}{section.2}
+\contentsline {section}{\numberline {3}Extrapolating Free Will}{6}{section.3}
+\contentsline {section}{\numberline {4}Cause and Effect}{7}{section.4}
+\contentsline {section}{\numberline {5}A Subjective Collapse Theory}{9}{section.5}
+\contentsline {section}{\numberline {6}A final note: Unification}{11}{section.6}
