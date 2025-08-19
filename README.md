@@ -5,6 +5,7 @@
 [![Stay Amazing](https://img.shields.io/badge/Stay-Amazing-blue.svg)](https://isene.org)
 
 <img src="img/on_will_logo.svg" align="left" width="150" height="150" alt="On Will Logo">
+<br clear="left"/>
 
 A treatise on the subject of free will, of consciousness, subjective reality, including an interpretation of quantum mechanics - a Subjective Collapse Theory.
 
