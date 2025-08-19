@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="150" height="150" fill="#0f172a"/>
+  
+  <!-- Book (representing free will) -->
+  <g transform="translate(75, 60)">
+    <!-- Book cover -->
+    <rect x="-30" y="-25" width="60" height="50" rx="2" fill="#3730a3" stroke="#4c1d95" stroke-width="2"/>
+    
+    <!-- Book spine -->
+    <rect x="-30" y="-25" width="8" height="50" fill="#4c1d95"/>
+    
+    <!-- Pages -->
+    <rect x="-20" y="-22" width="47" height="44" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1"/>
+    
+    <!-- Text on pages -->
+    <g font-family="serif" font-size="4" fill="#1f2937">
+      <text x="-15" y="-15">Free Will</text>
+      <text x="-15" y="-10">Choice</text>
+      <text x="-15" y="-5">Action</text>
+      <text x="-15" y="0">Purpose</text>
+      <text x="-15" y="5">Meaning</text>
+      <text x="-15" y="10">Ethics</text>
+      <text x="-15" y="15">Consciousness</text>
+    </g>
+    
+    <!-- Bookmark -->
+    <rect x="15" y="-25" width="3" height="30" fill="#dc2626" opacity="0.8"/>
+  </g>
+  
+  <!-- Thought bubbles -->
+  <g opacity="0.6">
+    <circle cx="30" cy="30" r="8" fill="#60a5fa" opacity="0.3">
+      <animate attributeName="r" values="8;10;8" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="35" cy="35" r="5" fill="#60a5fa" opacity="0.4"/>
+    <circle cx="38" cy="40" r="3" fill="#60a5fa" opacity="0.5"/>
+    
+    <circle cx="120" cy="35" r="7" fill="#a78bfa" opacity="0.3">
+      <animate attributeName="r" values="7;9;7" dur="3s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="115" cy="40" r="4" fill="#a78bfa" opacity="0.4"/>
+    <circle cx="112" cy="44" r="2" fill="#a78bfa" opacity="0.5"/>
+  </g>
+  
+  <!-- Philosophical symbols -->
+  <g transform="translate(75, 100)" opacity="0.7">
+    <!-- Infinity symbol -->
+    <path d="M -15,0 Q -10,-5 -5,0 Q 0,5 5,0 Q 10,-5 15,0 Q 10,5 5,0 Q 0,-5 -5,0 Q -10,5 -15,0" 
+          stroke="#fbbf24" stroke-width="2" fill="none">
+      <animate attributeName="stroke-dasharray" values="0,100;100,0" dur="5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Question marks floating -->
+  <g font-family="serif" font-size="12" fill="#60a5fa" opacity="0.5">
+    <text x="25" y="60">?
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-5;0,0" dur="2s" repeatCount="indefinite"/>
+    </text>
+    <text x="125" y="70">?
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-5;0,0" dur="2s" begin="1s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  
+  <!-- Mind/brain outline -->
+  <g transform="translate(75, 45)" opacity="0.2">
+    <path d="M -20,-10 Q -25,-5 -20,0 Q -15,5 -10,0 Q -5,5 0,0 Q 5,5 10,0 Q 15,5 20,0 Q 25,-5 20,-10 Q 15,-15 10,-10 Q 5,-15 0,-10 Q -5,-15 -10,-10 Q -15,-15 -20,-10" 
+          stroke="#cbd5e0" stroke-width="1" fill="none"/>
+  </g>
+  
+  <!-- Author info -->
+  <g transform="translate(75, 115)" opacity="0.8">
+    <text x="0" y="0" font-family="serif" font-size="6" fill="#94a3b8" text-anchor="middle">by Geir Isene</text>
+  </g>
+  
+  <!-- Text -->
+  <text x="75" y="135" font-family="serif" font-size="14" fill="#fff" text-anchor="middle" font-weight="bold">On Will</text>
+  <text x="75" y="145" font-family="serif" font-size="7" fill="#94a3b8" text-anchor="middle" font-style="italic">Free Will Philosophy</text>
+</svg>
